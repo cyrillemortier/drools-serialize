@@ -1,0 +1,10 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Jan 13 10:17:33 CET 2015
+file\://G\:\\sources\\sandbox\\trunk\\drools-core/../maven_repo_3rd_party/.lastUpdated=1421140350899
+http\://repo.maven.apache.org/maven2/.lastUpdated=1421138403495
+https\://repository.jboss.org/nexus/content/repositories/deprecated/.error=Could not transfer artifact com.google\:openbeans\:jar\:1.0 from/to jboss-deprecated (https\://repository.jboss.org/nexus/content/repositories/deprecated/)\: The operation was cancelled.
+494b0b640e0d297a97b0a97e59366cf5ccc43857@sena-proxy.us.schneider-electric.com\:8080>@default-https\://repository.jboss.org/nexus/content/repositories/deprecated/.lastUpdated=1421140653708
+file\://G\:\\sources\\sandbox\\trunk\\drools-core/../maven_repo_3rd_party/.error=
+http\://repo.maven.apache.org/maven2/.error=
+http\://repository.jboss.org/nexus/content/groups/public/.error=
+http\://repository.jboss.org/nexus/content/groups/public/.lastUpdated=1421140653691
