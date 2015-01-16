@@ -23,26 +23,11 @@
 			<scope>provided</scope>
 		</dependency>
 
-		<!-- Drools engine -->
-
-		<!-- <dependency> -->
-		<!-- <groupId>com.schneiderelectric.powercet.java</groupId> -->
-		<!-- <artifactId>core</artifactId> -->
-		<!-- <version>0.0.1-SNAPSHOT</version> -->
-		<!-- </dependency> -->
-
 		<dependency>
 		<groupId>org.kie</groupId>
 		<artifactId>kie-internal-android</artifactId>
 		<version>6.0.1.Final</version>
 		</dependency>
-		
-<!-- 		<dependency> -->
-<!-- 		<groupId>com.schneiderelectric.powercet.java</groupId> -->
-<!-- 		<artifactId>drools-rules</artifactId> -->
-<!-- 		<version>0.0.1-SNAPSHOT</version> -->
-<!-- 		</dependency> -->
-
 
 		<dependency>
 			<groupId>org.drools</groupId>
