@@ -1,24 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    >
-<TextView  
-    android:id="@+id/message_initial"
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    />
+    android:orientation="vertical" >
 
-<Button
-    android:id="@+id/fire_rules"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Fire Rule" />
+    <EditText
+        android:id="@+id/message_message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Message Initial" />
 
-<TextView
-    android:id="@+id/message_final"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content" />
+    <Spinner
+        android:id="@+id/message_status"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="#2AC416"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/load_default_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load Default Message" />
+
+    <Button
+        android:id="@+id/fire_rules"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fire Rule" />
 
 </LinearLayout>

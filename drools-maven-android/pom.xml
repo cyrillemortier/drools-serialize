@@ -14,19 +14,13 @@
 		<android.sdk.path>D:\Tools\android-sdks</android.sdk.path>
 	</properties>
 
-
 	<dependencies>
+
 		<dependency>
 			<groupId>com.google.android</groupId>
 			<artifactId>android</artifactId>
 			<version>4.1.1.4</version>
 			<scope>provided</scope>
-		</dependency>
-
-		<dependency>
-		<groupId>org.kie</groupId>
-		<artifactId>kie-internal-android</artifactId>
-		<version>6.0.1.Final</version>
 		</dependency>
 
 		<dependency>
@@ -94,6 +88,19 @@
 			<version>1.0</version>
 		</dependency>
 
+
+		<dependency>
+			<groupId>org.kie</groupId>
+			<artifactId>kie-internal-android</artifactId>
+			<version>6.0.1.Final</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.hello.object</groupId>
+			<artifactId>message</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
@@ -129,7 +136,7 @@
 			<scope>test</scope>
 		</dependency>
 
-	<dependency>
+		<dependency>
 			<groupId>ch.qos.logback</groupId>
 			<artifactId>logback-classic</artifactId>
 			<version>1.1.2</version>
@@ -142,30 +149,30 @@
 			<version>1.1.2</version>
 			<scope>test</scope>
 		</dependency>
-
 	</dependencies>
 
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>com.jayway.maven.plugins.android.generation2</groupId>
+				<groupId>com.simpligility.maven.plugins</groupId>
 				<artifactId>android-maven-plugin</artifactId>
-				<version>3.9.0-rc.1</version>
+				<version>4.1.0</version>
+
+				<extensions>true</extensions>
 				<configuration>
 					<sdk>
 						<platform>19</platform>
 					</sdk>
 					<manifestVersionName />
 					<manifestVersionCodeUpdateFromVersion>true</manifestVersionCodeUpdateFromVersion>
-					
+
 					<deleteConflictingFiles>true</deleteConflictingFiles>
 					<undeployBeforeDeploy>true</undeployBeforeDeploy>
-					<extensions>true</extensions>
 					<dex>
 						<coreLibrary>true</coreLibrary>
+						<multiDex>true</multiDex>
 					</dex>
 				</configuration>
-				<extensions>true</extensions>
 			</plugin>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -177,10 +184,10 @@
 			</plugin>
 		</plugins>
 	</build>
- 	<repositories> 
- 		<repository> 
- 			<id>third.party.closed.source.repo</id> 
- 			<url>file://${basedir}/../maven_repo_3rd_party</url> 
- 		</repository> 
- 	</repositories> 
+	<repositories>
+		<repository>
+			<id>third.party.closed.source.repo</id>
+			<url>file://${basedir}/../maven_repo_3rd_party</url>
+		</repository>
+	</repositories>
 </project>
